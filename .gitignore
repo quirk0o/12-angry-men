@@ -65,3 +65,10 @@ typings/
 *.iml
 out
 gen
+
+# License files
+twelveangrymen/src/main/java/expert/systems/twelve/manager/jsmile/*
+!twelveangrymen/src/main/java/expert/systems/twelve/manager/jsmile/LicenseProvider.java
+
+/**/target
+/**/.idea
