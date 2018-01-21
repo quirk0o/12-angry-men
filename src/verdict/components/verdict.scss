@@ -1,0 +1,73 @@
+.bar {
+  position: relative;
+  display: grid;
+  width: 100%;
+  border: none;
+  margin: 4em 0;
+  box-shadow: none;
+  background: rgba(0, 0, 0, .1);
+  padding: 0;
+  border-radius: .28571429rem;
+  height: 2em;
+}
+
+.marker {
+  display: block;
+  position: relative;
+  line-height: 1;
+  width: 100%;
+  background: #888;
+  border-radius: .28571429rem;
+  -webkit-transition: width .1s ease, background-color .1s ease;
+  transition: width .1s ease, background-color .1s ease;
+}
+
+.success {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  background: greenyellow;
+}
+
+.warning {
+  border-radius: 0;
+  background: yellow;
+}
+
+.failure {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  background: red;
+}
+
+.value {
+  white-space: nowrap;
+  position: absolute;
+  width: auto;
+  font-size: .92857143em;
+  top: 50%;
+  right: .5em;
+  left: auto;
+  bottom: auto;
+  color: rgba(0, 0, 0, .8);
+  text-shadow: none;
+  margin-top: -.5em;
+  font-weight: 700;
+  text-align: left;
+}
+
+.label {
+  position: absolute;
+  width: 100%;
+  font-size: 1em;
+  top: 100%;
+  right: auto;
+  left: 0;
+  bottom: auto;
+  color: rgba(0, 0, 0, .87);
+  font-weight: 700;
+  text-shadow: none;
+  margin-top: .2em;
+  text-align: center;
+  -webkit-transition: color .4s ease;
+  transition: color .4s ease;
+}

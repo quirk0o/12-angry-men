@@ -10,12 +10,3 @@
 :global *, :global *:before, :global *:after {
   box-sizing: inherit;
 }
-
-.grid {
-  padding: 20px;
-  display: grid;
-  grid-auto-flow: row;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 40px;
-}

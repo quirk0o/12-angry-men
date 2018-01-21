@@ -13,7 +13,8 @@ const evidenceMap = {
   woman: require('./img/woman.svg'),
   train: require('./img/train.svg'),
   oldMan: require('./img/old-man.svg'),
-  defendant: require('./img/runner.svg')
+  defendant: require('./img/runner.svg'),
+  neighbor: require('./img/ear.svg')
 }
 
 const Evidence = ({type, title, description, value, onChange}) => (
